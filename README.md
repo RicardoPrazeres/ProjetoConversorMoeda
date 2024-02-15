@@ -1,5 +1,11 @@
 #  Bem-vindo ao meu projeto!
 
+<div>
+<img src="https://github.com/RicardoPrazeres/ProjetoConversorMoeda/assets/43041945/5759be48-2abe-487f-809e-5aebbe2e50d4"width="350" /
+</div>
+
+
+
 ##  Conversor de Moeda
 
 **Descrição:**
