@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color:#E5E5E5;
+}
+
+.conteiner {
+    width: 380px;
+    margin: 0 auto;
+    margin-top: 70px;    
+}
+
+header {
+    color: white;
+    font-size: 24px;
+    font-weight: 200;
+    background-color: #1B83E2;
+    padding-left: 10px;
+    padding: 22px;
+    text-align: center;
+}
+
+main {
+    padding: 24px;
+    background-color: #f4f4f4;
+}
+
+label {
+    color: #777777;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+select {
+    background-color: white;
+    height: 48px;
+    display: block;
+    width: 100%;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 26px;
+    outline: none;
+    padding-left: 6px;
+    font-size: 16px;    
+}
+
+input {
+    background-color: white;
+    height: 48px;
+    display: block;
+    width: 100%;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 24px;
+    outline: none;
+    padding-left: 6px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #1B83E2;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 36px;
+    cursor: pointer;
+}
+
+.seta {
+    margin-top: 5px;
+    margin-left: 135px;
+}
+
+
+.bloco2 {
+    border: 2px solid #1B83E2;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.contener-valor {
+    text-align: center;
+    color: #777777;
+}
+
+.valores-azul {
+    color: #1B83E2;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer {
+    padding-left: 55px;
+    margin-top: 15px;
+}

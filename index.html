@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moeda</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <div class="conteiner">
+        <header>
+            Conversor de Moeda
+        </header>
+        <main>
+            <section>
+                <label>Converte <b>de</b></label>
+                    <select>
+                        <option>R$ Real brasileiro</option>
+                    </select>
+
+                <label>Converte <b>para</b></label>
+                    <select id="select-change">
+                        <option>US$ Dólar americano</option>
+                        <option>Є$ Euro</option>
+                    </select>
+
+                <label><b>Valor</b></label>
+
+                <input id="input-real" placeholder="R$ 10.000,00">
+                
+                <button id="convert-btn">Converter</button>
+
+            </section>
+            <section class="bloco2">
+                <div class="contener-valor">
+                    <img class="br" src="img/brasil 2.svg" alt="brasil">
+                    <p>Real</p>
+                    <p class="valores-azul" id="texto-real" >R$ 10.000,00</p>
+                </div>
+
+                <img class="seta" src="img/setaPraBaixo.svg" alt="seta-baixo">
+
+                <div class="contener-valor">
+                    <img src="img/eua.svg" id="img" alt="eua" >
+                    <p id="text-dolar">Dólar americano</p>
+                    <p class="valores-azul" id="texto-dolar">US$ 2.000,00</p>
+                </div>
+            </section>
+            <footer>Desenvolvido Por: Ricardo Araújo</footer>
+        </main>
+    </div>
+</body>
+
+<script src="assets/script.js"></script>
+
+</html>
+
